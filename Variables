@@ -1,0 +1,14 @@
+hero_name = 'Vijay'
+health = 100
+is_alive = True
+
+print(hero_name)
+#Doing Math with Variables
+#Imagine your hero, Vijay, gets hit by an enemy and loses 20 health. We can tell the computer to subtract that.
+health = 100
+damage = 20
+
+# We update health by subtracting damage
+health = health - damage
+
+print(health) # This will now show 80
