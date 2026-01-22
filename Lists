@@ -1,0 +1,6 @@
+# variables only hold one thing. But what if Vijay has an inventory of many items? We use a List.
+skills = ["coding", "gaming", "cooking"]
+skills.append("dancing")
+
+print(skills) # No quotes here!
+# This will show: ['coding', 'gaming', 'cooking', 'dancing']
