@@ -1,0 +1,3 @@
+#Instead of printing each skill one by one, we can tell Python: "For every item in this list, print it."
+for item in skills:
+    print("Vijay knows " + item)
