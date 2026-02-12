@@ -1,0 +1,15 @@
+#Create a function called divide_numbers(a, b).
+#Inside the function, use a try block to return a / b.
+#Use an except block to catch a ZeroDivisionError (when someone tries to divide by 0) and return the message: "Cannot divide by zero!".
+#Call the function with 10 and 0 and print the result.
+
+def divide_numbers(a, b):
+    try:
+        result = a / b
+        return result
+    except ZeroDivisionError:
+        return "Cannot divide by zero!"
+
+# Testing the function
+print(divide_numbers(10, 2)) # Should show 5.0
+print(divide_numbers(10, 0)) # Should show your error message
