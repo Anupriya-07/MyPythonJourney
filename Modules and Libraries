@@ -1,0 +1,24 @@
+# Task: "The Password Machine"
+# import random and import string.
+# Create a function generate_password().
+# Inside, combine string.ascii_letters (all A-Z) and string.digits (0-9) into one long string.
+# Use random.choice() inside a loop (or a "join" statement) to pick 8 random characters.
+# Return the password.
+import random
+import string
+
+def generate_password():
+    # Creating a pool of all possible characters
+    pool = string.ascii_letters + string.digits
+    
+    # Start with an empty password string
+    password = ""
+    
+    # Loop 8 times to pick 8 characters
+    for i in range(8):
+        password += random.choice(pool)
+    
+    return password
+
+# Calling the function
+print("Your new password is: " + generate_password())
